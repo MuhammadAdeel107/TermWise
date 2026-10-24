@@ -1,0 +1,14 @@
+[project]
+name = "api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Adeel Arshad", email = "adeelarshad1155@example.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "langchain>=1.4.7",
+    "langchain-ollama>=1.1.0",
+    "pydantic>=2.14.1",
+]
